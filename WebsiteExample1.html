@@ -1,0 +1,44 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 3;
+    order: 1;
+  }
+  #main > nav, 
+ 
+  #main > nav {
+    flex: 1;
+    background: #D7E8D4;
+    order: 2;
+  }
+
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 2em;
+  }
+</style>
+<body>
+  <header>Title</header>
+  <div id="main">
+    <article>Article1</article>
+    <nav>Article2</nav>
+  </div>
+  <footer>End</footer>
+</body>

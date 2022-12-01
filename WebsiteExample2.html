@@ -1,0 +1,70 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background: #abd9e1;
+    flex: 2;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex :1;
+  }
+  .content > article {
+    flex: 2;
+    min-height: 60vh;
+  }
+  .content > aside {
+    background: beige;
+    flex: 2;
+  }
+  header {
+    background: rgb(135, 135, 245);
+    height: 20vh;
+  }
+  footer {
+    background : rgb(143, 213, 243);
+    height : 10vh;
+  	padding : 0em;
+ }
+  header,article, nav, aside {
+
+    padding: 1em;
+  }
+</style>
+<body>
+  <nav class="col-1"><h1><b>Content</b></h1>
+    <p>1.What is Earth? </p>
+    <p>2.Earth Revolution thoery</p>
+  </nav>
+  <div class="col-2">
+  	<header>
+      <h2><b>Welcome To Earth Article</b></h2>
+    </header>
+    <main class="content">
+    <article>
+      <p>Earth is our home planet. Scientists believe Earth and its moon formed around the same time as the rest of the solar system. They think that was about 4.5 billion years ago. Earth is the fifth-largest planet in the solar system. Its diameter is about 8,000 miles. And Earth is the third-closest planet to the sun.</p>
+     </article>
+    <aside>
+      <p>It spins on its axis in 27.3 days stars were named after the Edwin Aldrin were the first ones to set their foot on the Moon on 21 July 1969 They reached the Earth in their space craft named Apollo II.</p>
+     </aside>
+    </main>
+  	<footer>
+      <h4>Author-Prathmesh vardam</h4>
+    </footer>
+  </div>
+</body>
